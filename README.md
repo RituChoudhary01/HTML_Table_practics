@@ -2,7 +2,7 @@
 In this repo i am practics html tables
 # Tables
 table 1
-<viedo width="1000"  alt="Screen Recording 2024-07-30 at 2.02.48 AM 2" src="https://github.com/user-attachments/assets/231686f3-99a5-4eff-b20d-b70d40729899"><hr>
+<img width="1469" alt="Screenshot 2024-07-31 at 12 10 09 AM" src="https://github.com/user-attachments/assets/9b19f55e-4d81-43ec-bf89-e2b8089fea04"><hr>
 table 2
 <img width="976" alt="Screenshot 2024-07-30 at 11 49 56 PM" src="https://github.com/user-attachments/assets/10016df2-3684-4ee2-b0d4-e7c0e7977f82"><hr>
 table 3
