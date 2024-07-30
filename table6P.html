@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 6</title>
+    <style>
+.permissionsTable {
+  width:100%;
+  background:#9c9b9b;
+  border-collapse:collapse;
+} 
+.permissionsTable td, .permissionsTable th {
+  vertical-align:bottom; 
+  text-align:center;
+  padding:3px 5px;
+}
+.permissionsTable th[colspan="2"]{
+  text-align:left;
+  width:11%;
+  min-width:150px;
+} 
+.column-border {border-left:10px solid #f5f1f1;}
+.new-block th {border-top:10px solid #f8f7f7;}
+.permissionsTable input {margin:0}
+</style>
+</head>
+<body>
+    <div class="permissionsBlock">
+      <table class="permissionsTable">
+        <caption>
+        Add Permissions
+        </caption>
+        <tr>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">All</th>
+          <th scope="col">Edit</th>
+          <th scope="col">View</th>
+          <th scope="col">Print</th>
+          <th scope="col" class="column-border">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">All</th>
+          <th scope="col">Edit</th>
+          <th scope="col">View</th>
+          <th scope="col">Print</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2" class="permissionHeader">ID Create-Subadmin</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">ID List-Subadmin</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><label class="blockLabel">Block</label>
+            &nbsp;
+            <input type="checkbox"></td>
+          <td><label class="blockLabel">Activate</label>
+            &nbsp;
+            <input type="checkbox"></td>
+          <td colspan="4">&nbsp;</td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2" class="permissionHeader">ID Create-Staff</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">ID List-Staff</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><label class="blockLabel">Block</label>
+            &nbsp;
+            <input type="checkbox"></td>
+          <td><label class="blockLabel">Activate</label>
+            &nbsp;
+            <input type="checkbox"></td>
+          <td colspan="4">&nbsp;</td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2" class="permissionHeader">ID Create-Associate</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">ID List-Associate</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><label class="blockLabel">Block</label>
+            &nbsp;
+            <input type="checkbox"></td>
+          <td><label class="blockLabel">Activate</label>
+            &nbsp;
+            <input type="checkbox"></td>
+          <td colspan="4">&nbsp;</td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2" class="permissionHeader">ID Create-Self</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">ID List-Self</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><label class="blockLabel">Block</label>
+            &nbsp;
+            <input type="checkbox"></td>
+          <td><label class="blockLabel">Activate</label>
+            &nbsp;
+            <input type="checkbox"></td>
+          <td colspan="4">&nbsp;</td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2" class="permissionHeader">ID Create-Applicant</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">ID List-Applicant</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><label class="blockLabel">Block</label>
+            &nbsp;
+            <input type="checkbox"></td>
+          <td><label class="blockLabel">Activate</label>
+            &nbsp;
+            <input type="checkbox"></td>
+          <td colspan="4">&nbsp;</td>
+        </tr>
+        
+        <!-- start new block -->
+        <tr class="new-block">
+          <th colspan="2">&nbsp;</th>
+          <th scope="col">All</th>
+          <th scope="col">Edit</th>
+          <th scope="col">View</th>
+          <th scope="col">Print</th>
+          <th colspan="2"  scope="col" class="column-border">&nbsp;</th>
+          <th scope="col">All</th>
+          <th scope="col">Edit</th>
+          <th scope="col">View</th>
+          <th scope="col">Print</th>
+          <th colspan="2"  scope="col" class="column-border">&nbsp;</th>
+          <th scope="col">All</th>
+          <th scope="col">Edit</th>
+          <th scope="col">View</th>
+          <th scope="col">Print</th>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2" class="permissionHeader">Income-Add</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">Bill-Add</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">Report-Income</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2" class="permissionHeader">Income-List</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">Bill-List</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">Report-Advance</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2" class="permissionHeader">Advance-Add</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">Personal-Add</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">Report-Bill</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2" class="permissionHeader">Advance-List</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">Personal-List</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">Report-Expense</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2" class="permissionHeader">Expense-Add</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">Balance-Notification</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <th scope="row" colspan="2" class="permissionHeader column-border">Report-Personal</th>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
+        </tr>
+
+        <tr>
+            <th scope="row" colspan="2" class="permissionHeader">Expense-List</th>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <th scope="row" colspan="2" class="permissionHeader column-border">Master</th>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <th scope="row" colspan="2" class="permissionHeader column-border">Report-All</th>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+      </table>
+    </div>
+</body>
+</html>
