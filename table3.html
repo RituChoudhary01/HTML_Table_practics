@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            color:white;
+            font-family: Roboto;
+          }
+          h1{
+            text-align: center;
+           margin-top: 150px;
+           font-size: 50px;
+           text-shadow: 2px 2px 15px  red ;
+          }
+          body{
+            background-image: url(bg1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          div{
+            text-align: center;
+            opacity: 0.8;
+            margin: 20px;
+            line-height: 30px;
+        }
+          th,td{
+            width:300px;
+            height: 50px;
+            text-align: center;
+          
+          }
+          th{
+            font-size: 1.5rem;
+          }
+          table{
+           margin:auto;
+          }
+          button{
+            padding: 10px 50px;
+            border-radius: 5px;
+          }
+        #heading1,#bt1{
+        background-color: rgb(213, 106, 106);
+        }
+        #heading2,#bt2{
+        background-color: rgb(201, 59, 59);
+       }
+       #heading3,#bt3{
+        background-color: rgb(230, 17, 17);
+       }
+       tr:nth-child(odd){
+        background-color: rgba(44, 40, 40);
+       }
+       tr:nth-child(even){
+        background-color: rgb(5, 5, 5);
+       }
+       tr:hover{
+        background-color: rgb(240, 165, 165);
+       }
+
+    </style>
+</head>
+<body>
+   <h1>PRICING PLANS</h1> 
+   <div>
+   <i>‹ Lorem ipsum dolor sit amet, consectetur adipiscing el
+    incididunt ut labore et<br> dolore magna aliqua
+    do eiusmod tempor</i></div>
+   <table>
+    <tr>
+        <th id="heading1">Plan1</th>
+        <th id="heading2">Plan2</th>
+        <th id="heading3">Plan3</th>
+    </tr>
+    <tr>
+        <td>10Gb</td>
+        <td>15Gb</td>
+        <td>20Gb</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>5</td>
+        <td>Unilimited</td>
+    </tr>
+    <tr>
+        <td>Free Trial</td>
+        <td>Free Trial</td>
+        <td>Free Trial</td>
+    </tr>
+    <tr>
+        <td>9.995</td>
+        <td>19.995</td>
+        <td>39.995</td>
+    </tr>
+    <tr>
+        <td><button id="bt1">Purchage</button></td>
+        <td><button id="bt2">Purchage</button></td>
+        <td><button id="bt3">Purchage</button></td>
+    </tr>
+   </table>
+</body>
+</html>
